@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(92, 89, 89);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#root .main-card-time{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.card label{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.card h2{
+    padding-bottom: 20px;
+}
+.main-card-time .card{
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgba(218, 229, 247, 0.904);
+    
+}
+#root .main-card-loc{
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+.main-card-loc form{
+    display: flex;
+    flex-direction: column;
+}
+.main-card-loc .loc-card{
+    width: fit-content;
+}
+.total-cards-update{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.main-card-loc label{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 10px;   
+}
+.submit-btn{
+    margin: auto;
+}
+.total-card-out {
+    max-width: 350px;
+    border: 2px solid ;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.total-cards-update .submit-btn,.adjust-btn{
+    padding: 10px 15px;
+    color: white;
+    font-weight:bold;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(224, 120, 83);
+    margin: 0;
+    
+    
+}
+.total-cards-update .adjust-btn{
+    background-color: rgb(105, 172, 5);
+  
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+/* .total-card-out div{
+    display: flex;
+    justify-content: space-between;
+} */
